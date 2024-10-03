@@ -1,5 +1,5 @@
 :root {
-    --primary: #b6895b;
+    --primary:  #b6895b;
     --bg: #010101;
 }
 
@@ -170,11 +170,12 @@ body {
 }
 
 .about .row .about-img {
-    flex: 1 1 45rem;
+    flex: 1 1 40rem;
 }
 
 .about .row .about-img img {
     width: 100%;
+    border-radius: 10px;
 }
 
 .about .row .content {
@@ -234,12 +235,14 @@ body {
     margin-top: 2rem;
     background-color: #222;
     flex-wrap: wrap;
+    border-radius: 10px;
 }
 
 .contact .row .map {
-    flex: 1 1 45rem;
+    flex: 1 1 100rem;
     width: 100%;
     object-fit: cover;
+    border-radius: 10px;
 }
 
 .contact .row form {
@@ -255,6 +258,7 @@ body {
     background-color: var(--bg);
     border: 1px solid #eee;
     padding-left: 2rem;
+    border-radius: 10px;
 }
 
 .contact .row form .input-group input{
@@ -273,6 +277,7 @@ body {
     color: #fff;
     background-color: var(--primary);
     cursor: pointer;
+    border-radius: 10px;
 }
 
 /* footer */
@@ -281,6 +286,7 @@ footer{
     text-align: center;
     padding: 1rem 0 3rem;
     margin-top: 3rem;
+    border-radius: 5px;
 }
 
 footer .social{
